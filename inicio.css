@@ -1,55 +1,92 @@
 body {
 
-background-color: rgb(255, 26, 26);
+    background-color: rgb(255, 26, 26);
+    
+    color: aliceblue;
+    
+    padding: 20px;
 
-color: aliceblue;
-
-}
-
-
-
-#menu {
-    display: flex; 
-    align-items: center; 
-        justify-content: space-around;
-    position: fixed;
-    background-color: rgb(71, 71, 71);
-    left: 0;
-    width: 100%;
-    height: 100px;
+    }
+    
+    
+    
+    #bagulhodotopo {
+        
+        align-items: center; 
+        
+        justify-content: space-around ;
+        
+        position: fixed ;
+        
+        display: flex;
+        background-color: rgb(71, 71, 71);
+        
+        left: 0;
+        
+        width: 100%;
+        
+        height: 100px;
+        
+        
     top: 0;
-}
-        .inicio{
-
-text-align: center;
-
-        }
-.pontos {
-
-color: rgb(255, 26, 26);
-
-
-}
-
-
-.produtos {
-color: aliceblue;
-background-color: black;
-width: 201px;
-height: 320px;
-h2{height: 25px;
-width: 20px; }
-
-}
-
-.qm {
-
+    }
+            .inicio{
+    
+    text-align: center;
+    
+            }
+    .pontos {
+    
+    color: rgb(255, 26, 26);
+    
+    
+    }
+    
+    
+    .pm {
     color: aliceblue;
     background-color: black;
     width: 201px;
-    height: 335px;
+    height: 320px;
     h2{height: 25px;
     width: 20px; }
+
+    }
     
+    .qm {
+    
+        color: aliceblue;
+        background-color: black;
+        width: 201px;
+        height: 320px;
+        h2{height: 25px;
+        width: 20px; }
+line-height: 19px;
+    }
+
+    .aranhaverso {
+
+        color: aliceblue;
+        background-color: black;
+        width: 201px;
+        height: 395px;
+        h2{height: 25px;
+        width: 20px; }
+        
+    
+
+    }
+
+
+#produtos {
+
+    align-items: center; 
+        
+    justify-content: space-around ;
+    
+    position: fixed ;
+    
+    display: flex;
+
 
 }
