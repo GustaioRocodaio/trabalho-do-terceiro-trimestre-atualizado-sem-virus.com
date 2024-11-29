@@ -232,12 +232,11 @@ padding-top: 40px;
 }
 
 
-#actionfigures {
+.actionfigures {
 
    
    
-    align-items: center; 
-        
+text-align: center;        
     justify-content: space-around ;
     
 
@@ -252,7 +251,7 @@ position: absolute;
 
 
 
-.kominen {
+.kominena {
 
 
      
@@ -267,3 +266,177 @@ position: absolute;
     
         line-height: 19px;
 }
+
+
+.slider{
+
+width: 800px;
+height: 400px;
+overflow: hidden;
+
+    
+    margin: 0 auto;
+}
+
+.slide {
+
+width: 400%;
+height: 400px;
+text-align: center;
+display: flex;
+}
+
+
+.slide input {
+
+
+    display: none;
+}
+
+.slidekomi {
+
+width: 25%;
+
+}
+
+.slideshinobu {
+
+    width: 25%;
+    
+    }
+
+    
+.slidejinx {
+
+        width: 25%;
+        
+        }
+
+.slidehinata {
+
+            width: 25%;
+            
+            }
+
+            .slide img {
+
+width: 400px;
+
+
+            }
+
+
+.manual {
+
+position: absolute;
+width: 400px;
+
+display: flex;
+justify-content: center;
+margin-top: 360px;
+
+}
+
+.manual-btn {
+
+
+    border: 2px solid #000000;
+
+    padding: 5px;
+border-radius: 10px;
+cursor: pointer;
+transition: 1s;
+
+}
+
+.manual-btn:not(:last-child) {
+
+margin-right: 40px;
+
+}
+
+#radio1:checked ~ .first{
+
+    margin-left: 0%;
+}
+
+#radio2:checked ~ .first {
+
+    margin-left: -33.5%;
+}
+
+#radio3:checked ~.first {
+
+    margin-left: -100%;
+}
+
+#radio4:checked ~.first {
+
+    margin-left: -300%;
+}
+
+.navigation-auto div{
+border: 2px solid #20f8ff;
+
+padding: 5px;
+
+border-radius: 10px;
+
+cursor: pointer;
+transition: 1s;
+
+
+
+}
+
+
+
+.navigation-auto{ 
+
+width: 400px;
+margin-top: 360px;
+display: flex;
+    position: absolute;
+
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child) {
+
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{ 
+
+
+background-color: aliceblue;
+
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{ 
+
+
+    background-color: aliceblue;
+    
+    }
+
+    #radio2:checked ~ .navigation-auto .auto-btn2{ 
+
+
+        background-color: aliceblue;
+        
+        }
+
+        #radio3:checked ~ .navigation-auto .auto-btn3{ 
+
+
+            background-color: aliceblue;
+            
+            }
+
+            #radio4:checked ~ .navigation-auto .auto-btn4{ 
+
+
+                background-color: aliceblue;
+                
+                }
